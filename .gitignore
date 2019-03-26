@@ -3,3 +3,9 @@ bin/
 
 # JetBrains
 .idea
+
+# .env
+.env
+
+# libraries
+vendor/**
