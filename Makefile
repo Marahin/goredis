@@ -1,6 +1,6 @@
 build: install-dependencies
 	mkdir -p bin/
-	GOOS=darwin GOARCH=amd64 go build -o bin/goredis
+	go build -o bin/goredis
 	chmod +x bin/goredis
 
 run: build

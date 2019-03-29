@@ -2,15 +2,15 @@
 
 ## Running
 
-```sh
+1. `cp .env.dist .env`  
 
-make run
-```
+2. `make run`
 
 ## Having fun
 
 ```
-telnet localhost 6379
+$ telnet localhost 6379
+
 Trying ::1...
 Connected to localhost.
 Escape character is '^]'.
